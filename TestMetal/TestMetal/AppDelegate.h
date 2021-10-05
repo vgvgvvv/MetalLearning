@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  TestMetalRHI
+//  TestMetal
 //
 //  Created by ResetOTER on 2021/10/5.
 //

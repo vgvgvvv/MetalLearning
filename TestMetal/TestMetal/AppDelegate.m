@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  TestMetalRHI
+//  TestMetal
 //
 //  Created by ResetOTER on 2021/10/5.
 //
@@ -9,7 +9,7 @@
 
 @interface AppDelegate ()
 
-@property (strong) IBOutlet NSWindow *window;
+
 @end
 
 @implementation AppDelegate

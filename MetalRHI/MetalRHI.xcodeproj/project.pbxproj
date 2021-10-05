@@ -13,12 +13,23 @@
 		035C440E270C603F008E5472 /* MetalRHI.m in Sources */ = {isa = PBXBuildFile; fileRef = 035C440C270C603F008E5472 /* MetalRHI.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		035C4432270C62B8008E5472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035C442E270C62B7008E5472 /* TestMetal.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 035C4418270C62B6008E5472;
+			remoteInfo = TestMetal;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		035C43FE270C5F6E008E5472 /* MetalRHI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MetalRHI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		035C4401270C5F6E008E5472 /* MetalRHI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetalRHI.h; sourceTree = "<group>"; };
 		035C4402270C5F6E008E5472 /* MetalRHI.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MetalRHI.docc; sourceTree = "<group>"; };
 		035C440B270C603F008E5472 /* MetalRHI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MetalRHI.h; path = MetalRHI/MetalRHI.h; sourceTree = "<group>"; };
 		035C440C270C603F008E5472 /* MetalRHI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MetalRHI.m; path = MetalRHI/MetalRHI.m; sourceTree = "<group>"; };
+		035C442E270C62B7008E5472 /* TestMetal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TestMetal.xcodeproj; path = ../TestMetal/TestMetal.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +46,7 @@
 		035C43F4270C5F6E008E5472 = {
 			isa = PBXGroup;
 			children = (
+				035C442E270C62B7008E5472 /* TestMetal.xcodeproj */,
 				035C4400270C5F6E008E5472 /* MetalRHI */,
 				035C43FF270C5F6E008E5472 /* Products */,
 			);
@@ -57,6 +69,14 @@
 				035C440C270C603F008E5472 /* MetalRHI.m */,
 			);
 			path = MetalRHI;
+			sourceTree = "<group>";
+		};
+		035C442F270C62B7008E5472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				035C4433270C62B8008E5472 /* TestMetal.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,12 +137,28 @@
 			mainGroup = 035C43F4270C5F6E008E5472;
 			productRefGroup = 035C43FF270C5F6E008E5472 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 035C442F270C62B7008E5472 /* Products */;
+					ProjectRef = 035C442E270C62B7008E5472 /* TestMetal.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				035C43FD270C5F6E008E5472 /* MetalRHI */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		035C4433270C62B8008E5472 /* TestMetal.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TestMetal.app;
+			remoteRef = 035C4432270C62B8008E5472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		035C43FC270C5F6E008E5472 /* Resources */ = {

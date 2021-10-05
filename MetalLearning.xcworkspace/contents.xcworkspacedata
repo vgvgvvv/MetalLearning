@@ -4,7 +4,4 @@
    <FileRef
       location = "group:MetalRHI/MetalRHI.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:MetalRHI/MetalRHI/MetalRHI/../../../TestMetalRHI/TestMetalRHI.xcodeproj">
-   </FileRef>
 </Workspace>
